@@ -1,16 +1,12 @@
-# shop_app
+# Shop_App
+This is The Ecommerce Shop App built using Flutter and Providers for State Management
 
-A new Flutter project.
+## Description
+This App mainly focuses on the State Management using Providers.
 
-## Getting Started
+## Providers
+The provider package is an easy to use package which is basically a wrapper around the InheritedWidgets that makes it easier to use and manage. It provides a state management technique that is used for managing a piece of data around the app.
 
-This project is a starting point for a Flutter application.
+The Class that I used for this purpose is ChangeNotifierProvider which notifies every widget(listening to that change) about the changes occuring in the App during its running.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
