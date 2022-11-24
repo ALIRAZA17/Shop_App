@@ -31,6 +31,7 @@ class UserProductsScreen extends StatelessWidget {
         padding: EdgeInsets.all(8),
         child: ListView.builder(
           itemBuilder: (context, index) => UserProductItem(
+            productsData.items[index].id,
             productsData.items[index].title,
             productsData.items[index].imageUrl,
           ),
